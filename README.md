@@ -7,15 +7,14 @@
 # Project Structure
 
 src/
-    - config/          # DB connection
-    - controllers/     # Request handlers
-    - models/          # Mongoose schemas (DB table schema)
-    - routes/          # API routes
-    - services/        # Business logic
-    - types/           # Interfaces
-    - utils/           # Helpers (downloader, retry, azure mocks)
-    - app.ts           # Express APP initialization
-    - index.ts         # Application entry point
+ ├─ config/          # DB connection
+ ├─ models/          # Mongoose schemas
+ ├─ services/        # Business logic
+ ├─ controllers/     # Request handlers
+ ├─ routes/          # API routes
+ ├─ utils/           # Helpers (downloader, retry, azure mocks)
+ ├─ app.ts           # Express initialization
+ └─ index.ts         # Application entry point
 
 
 # Installation & Setup
